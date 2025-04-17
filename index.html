@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu Musical</title>
+  <link rel="stylesheet" href="/menu/ShowInterativo/assets/styles.css?v=344">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="logo-container">
+	<img src="/menu/ShowInterativo/assets/logo.JPEG" alt="Logo">
+  </div>
+
+  <div class="filtros-container" id="filtros-nacionalidade">
+
+	<label><input type="checkbox" id="filtroNacional">Nacional</label>
+	<label><input type="checkbox" id="filtroInternacional">Internacional</label>
+
+	<div class="filtro-genero">
+	  <select id="filtroGenero">
+		<option value="">Estilo: Todos</option>
+	  </select>
+	  <button id="btn-limpar-filtros">Limpar Filtros</button>
+	</div>
+
+	<div class="input-container">
+	  <input type="text" id="pesquisa" placeholder="Pesquise por nome, artista, gênero ou trecho...">
+	  <button id="limparBusca" type="button">×</button>
+	</div>
+  </div>
+
+
+  <div class="table-container">
+	<table id="tabela-musicas">
+	  <thead>
+		<tr>
+		  <th data-sort="namesong">Música <span class="sort-icon"><b>⇅</b></span></th>
+		  <th data-sort="artist">Artista <span class="sort-icon"><b>⇅</b></span></th>
+		  <th></th>
+		</tr>
+	  </thead>
+	  <tbody></tbody>
+	</table>
+  </div>
+  
+  <footer class="footer">
+		<div class="footer-left">
+	  	<a href="https://instagram.com/mollitamltda" target="_blank">
+			<img src="/menu/ShowInterativo/assets/logo_Moll.svg" alt="Logo da empresa">
+	  	</a>
+	  	<span>© 2025 Mollitiam, LTDA.</span>
+		</div>
+  	
+	  <div class="footer-content">
+		<div class="footer-center">
+	  	<a href="https://instagram.com/bandamenumusical" target="_blank">
+			<i class="fab fa-instagram"></i> @bandamenumusical
+	  	</a>
+		</div>
+  	
+		<div class="footer-right">
+	  	<i class="fas fa-globe"></i>
+	  	<span>Português (BR)</span>
+		</div>
+	  </div>
+  </footer> 
+  
+  <script src="/menu/ShowInterativo/script/script.js?v=325"></script>
+</body>
+</html>
