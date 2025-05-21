@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="MenuMusical" src="./github/previewMobile.png" width="100%">
+  <img alt="MenuMusical" src="./github/MenuMusical.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
