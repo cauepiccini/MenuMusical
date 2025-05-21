@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Banda Vivarta - Show Interativo!</title>
+  <link rel="stylesheet" href="/assets/styles.css?v=11">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/ico.png">
+</head>
+<body>
+  <div class="logo-container">
+	<img src="/assets/logo.JPEG" alt="Logo">
+  </div>
+  <br>
+  <div class="main">
+    <div class="filtros-container" id="filtros-nacionalidade">
+      <div class="input-container">
+        <input type="text" id="pesquisa" placeholder="Nome, artista, ou trecho da música" autocomplete="off">
+        <span class="search-icon"><i class="fa fa-search"></i></span>
+        <button id="limparBusca" type="button">×</button>
+      </div>
+      <div class="filtros-row">
+        <div class="filtros-row-inner">
+          <label><input type="checkbox" id="filtroNacional">Nacional</label>
+          </div>
+          <div class="filtros-row-inner">
+          <label><input type="checkbox" id="filtroInternacional">Internacional</label>
+          </div>
+          <div class="filtro-genero">
+            <select id="filtroGenero">
+              <option value="">Estilo: Todos</option>
+            </select>
+          </div>
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="tabela-musicas">
+        <thead>
+          <tr>
+            <th data-sort="namesong">Música <span class="sort-icon"><b>⇅</b></span></th>
+            <th data-sort="artist">Artista <span class="sort-icon"><b>⇅</b></span></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  
+  <footer class="footer">
+		<div class="footer-center">
+			<a href="https://instagram.com/bandavivarta"><img src="/assets/icon_insta.svg" alt="Instagram" class="instagram-img" target="_blank"></a>
+			<a href="https://instagram.com/bandavivarta" target="_blank" class="instagram-link">
+				<span><u>@bandavivarta</u></span>
+			</a>
+		</div>
+    <br/>
+<br/>
+		<!--<a class="desenvolvido">Desenvolvido por:</a>-->
+		<div class="footer-content">
+			<div class="footer-left">
+				<span>Desenvolvido por:</span>
+		  		<a href="https://instagram.com/mollitiamltda" target="_blank">	  
+		  			<span>© 2025 Mollitiam, LTDA.</span>
+		  		</a>
+			</div>
+		</div>
+  </footer> 
+  
+  <script src="/script/script.js?v=325"></script>
+</body>
+</html>
