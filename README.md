@@ -3,7 +3,7 @@
 🚫 **Este repositório é demonstrativo. O uso, cópia ou redistribuição sem autorização explícita é proibido.**  
 © Mollitiam Development.
 
-## Sobre o App
+## Sobre o Site
 
 O **Menu Musical** é uma página com o principal objetivo a adaptação na interação entre o público e o músico, criando um show interativo. A página consta todo o repertório da banda, e o público pode pesquisar pelo nome, artista ou por trechos da música. Além disso, a aplicação de filtros por gêneros, “nacionais" ou “internacionais” facilita a busca. Assim que encontrar a música que deseja ouvir, é só clicar no ícone do WhastApp e enviar diretamente ao músico.
 
